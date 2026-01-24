@@ -1,0 +1,76 @@
+site_name: Unipod TurtleBot3 Waffle Pi Docs
+site_description: Real-world TurtleBot3 Waffle Pi setup documentation from the Unipod Lab
+site_author: Unipod Lab
+
+
+repo_name: turtleBot3-setup-unipod-bw
+repo_url: https://github.com/Reginald-Itiseng/turtleBot3-setup-unipod-bw
+
+
+nav:
+- Home: index.md
+- Overview:
+- Unipod Lab: overview/what-is-unipod.md
+- TurtleBot3: overview/turtlebot3-overview.md
+
+
+- Hardware:
+- Waffle Pi: hardware/waffle-pi.md
+- Raspberry Pi: hardware/raspberry-pi.md
+- Camera: hardware/camera.md
+- Power & Wiring: hardware/power-and-wiring.md
+
+
+- OS Setup:
+- Ubuntu Server Install: os-setup/ubuntu-server-install.md
+- WiFi Configuration: os-setup/wifi-setup.md
+- Login Issues: os-setup/common-login-issues.md
+
+
+- ROS 2 Setup:
+- ROS 2 Installation: ros2-setup/ros2-installation.md
+- TurtleBot3 Packages: ros2-setup/turtlebot3-packages.md
+- Environment Variables: ros2-setup/environment-variables.md
+- Build Workspace: ros2-setup/build-workspace.md
+
+
+- Camera Setup:
+- Official Docs Reference: camera-setup/official-docs.md
+- libcamera: camera-setup/libcamera.md
+- v4l2_camera: camera-setup/v4l2-camera.md
+- Problems & Fixes: camera-setup/problems-and-fixes.md
+
+
+- Networking:
+- SSH Access: networking/ssh.md
+- Remote PC Setup: networking/remote-pc-setup.md
+- Multi-machine ROS: networking/multi-machine-ros.md
+
+
+- Troubleshooting:
+- Common Errors: troubleshooting/common-errors.md
+- ROS Launch Failures: troubleshooting/ros-launch-failures.md
+- Hardware Quirks: troubleshooting/hardware-quirks.md
+
+
+- References:
+- Official TurtleBot3 Docs: references/official-turtlebot3.md
+- Useful Links: references/useful-links.md
+
+
+
+
+theme:
+name: material
+features:
+- navigation.tabs
+- navigation.sections
+- content.code.copy
+- content.action.edit
+
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.highlight
