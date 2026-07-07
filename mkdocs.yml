@@ -1,4 +1,27 @@
-site_name: My Docs
-site_url: https://example.com/docs
+site_name: TurtleBot3 (Waffle_pi) Settup Guide for UNIPOD-BW
+site_description: A step-by-step guide to set up TurtleBot3 waffle_pi for UNIPOD-BW
+site_url: https://reginald-itiseng.github.io/turtleBot3-setup-unipod-bw/
 theme:
   name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
